@@ -1,3 +1,159 @@
-body {
-    background-color: bisque;
-}
+.main {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .main .overlap-group-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1600px;
+    height: 900px;
+  }
+  
+  .main .overlap-group {
+    position: relative;
+    width: 1726px;
+    height: 989px;
+    top: -89px;
+  }
+  
+  .main .rectangle {
+    position: absolute;
+    width: 1353px;
+    height: 276px;
+    top: 0;
+    left: 373px;
+    background-color: #ffedbe;
+    border-radius: 42.3px;
+  }
+  
+  .main .div {
+    position: absolute;
+    width: 804px;
+    height: 914px;
+    top: 75px;
+    left: 0;
+    background-color: #b0cbff;
+    border-radius: 0px 33.84px 33.84px 0px;
+  }
+  
+  .main .text-wrapper {
+    position: absolute;
+    width: 570px;
+    top: 162px;
+    left: 118px;
+    font-family: "Consolas-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .text-wrapper-2 {
+    position: absolute;
+    width: 126px;
+    top: 165px;
+    left: 861px;
+    font-family: "Consolas-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32.7px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .main .text-wrapper-3 {
+    position: absolute;
+    width: 91px;
+    top: 165px;
+    left: 1021px;
+    font-family: "Consolas-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32.7px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .main .text-wrapper-4 {
+    position: absolute;
+    width: 217px;
+    top: 164px;
+    left: 1146px;
+    font-family: "Consolas-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32.7px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .main .text-wrapper-5 {
+    position: absolute;
+    width: 109px;
+    top: 165px;
+    left: 1397px;
+    font-family: "Consolas-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32.7px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .main .p {
+    position: absolute;
+    width: 545px;
+    top: 595px;
+    left: 118px;
+    font-family: "Consolas-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25.4px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .school-email-haixin {
+    position: absolute;
+    width: 661px;
+    top: 770px;
+    left: 118px;
+    font-family: "Consolas-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20.3px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .span {
+    font-weight: 700;
+  }
+  
+  .main .text-wrapper-6 {
+    font-family: "Consolas-Regular", Helvetica;
+  }
+  
+  .main .profile {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 316px;
+    left: 118px;
+    mix-blend-mode: luminosity;
+    object-fit: cover;
+  }
+  
