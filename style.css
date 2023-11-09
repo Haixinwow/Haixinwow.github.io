@@ -1,3 +1,6 @@
+body {
+  margin: 0%;
+}
 .main {
     background-color: #ffffff;
     display: flex;
@@ -9,14 +12,12 @@
   .main .overlap-group-wrapper {
     background-color: #ffffff;
     overflow: hidden;
-    width: 1600px;
-    height: 900px;
+    width: 100%;
   }
   
   .main .overlap-group {
     position: relative;
-    width: 1726px;
-    height: 989px;
+    width: 100%;
     top: -89px;
   }
   
