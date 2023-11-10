@@ -1,10 +1,32 @@
 body {
   margin: 0%;
   height: 100%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .navigation {
   width: 25%;
+  float: left;
   /* border: black 2px solid; */
   background-color: #b1cbff;
   height: 100vh;
+}
+
+.works {
+  width: 75%;
+  float: left;
+  height: 100vh;
+  /* border: black 2px solid; */
+  background-color: #986666;
+}
+
+.helloMessage {
+  padding: 15%;
+  margin-top: 15vh;
+  text-align: center;
+  font-size: 5vh;
+}
+
+.buttons {
+  padding: 25%;
+  display: flex;
 }
