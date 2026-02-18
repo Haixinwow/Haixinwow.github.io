@@ -2,7 +2,7 @@
     {
         "id": "support-programmer",
         "tag": "research",
-        "src": "../../assets/cover_page_supporting_programmer.png",
+        "src": "/assets/cover_page_supporting_programmer.png",
         "title": "Supporting Programmers Answering the Hard-To-Answer  Questions Through the Use of Large Language Models",
         "description": "A Literature Review of WAAM and Future Application in Buildings"
     },
