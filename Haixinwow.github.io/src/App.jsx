@@ -1,0 +1,34 @@
+import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css'
+import Navigation from './navigation'
+import About from './pages/about'
+import AllWorks from './pages/all_works';
+import Uiux from './pages/uiux';
+import Architecture from './pages/architecture';
+import Photography from './pages/photography';
+import Resume from './pages/resume';
+import ProjectDetail from './pages/project_detail';
+import * as React from 'react'
+
+const App = () => {
+
+  return (
+    <div className='main'>
+      <Router>
+        <Navigation />
+        <Routes>
+          <Route path='/' element={<About />}/>
+          <Route path='/all-works' element={<AllWorks />}/>
+          <Route path='/uiux' element={<Uiux />}/>
+          <Route path='/architecture' element={<Architecture />}/>
+          <Route path='/photography' element={<Photography />}/>
+          <Route path='/:category/:projectId' element={<ProjectDetail />}/>
+          <Route path='/resume' element={<Resume />}/>
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App

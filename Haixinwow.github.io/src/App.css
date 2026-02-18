@@ -1,0 +1,158 @@
+body {
+    margin: 0%;
+    height: 100%;
+    background-color: rgb(255, 251, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: url('cursor.png'), auto;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+.navigation {
+    /* margin: 5vh; */
+    height: 90vh;
+    border-radius: 25px;
+    /* border: 2px solid black; */
+    width: 25%;
+    
+}
+
+.works {
+    width: 70%;
+    float: right;
+    height: 100vh;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.helloMessage {
+    padding: 5%;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.helloMessage img {
+    width: 100px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+}
+
+nav {
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    color: black;
+    margin: 20px;
+    padding-left: 100px;
+    display: flex;
+    overflow: hidden;
+    background-color: none;
+    border: none;
+    flex-wrap: nowrap;
+}
+
+.content {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5vh;
+    margin-right: 5vh;
+    height: 90vh;
+    /* border-radius: 25px; */
+    /* border: 2px solid black; */
+    overflow: scroll;
+}
+
+.project-cover {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    padding-left: 0;
+}
+
+.cover-image-wrap {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.projects:nth-child(3n + 1) {
+    clear: left;
+    margin-left: 5%;
+}
+
+.cover__img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.details-wrap {
+    padding-bottom: 9%;
+}
+
+.title {
+    color: rgb(34, 34, 34);
+    float: none;
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    margin: auto;
+    padding: 0px 0% 5px;
+    text-align: center;
+    width: 90%;
+}
+
+.description {
+    color: rgb(153, 153, 153);
+    float: none;
+    font-family: helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    margin: auto;
+    padding: 2px 0% 10px;
+    text-align: center;
+    text-transform: none;
+    width: 90%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 1535px) {
+    .project-cover{
+        width: 29.5%;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .navigation {
+        display: none;
+    }
+
+    .works {
+        width: 100%;
+    }
+
+    .projects:nth-child(3n + 1) {
+        clear: left;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
