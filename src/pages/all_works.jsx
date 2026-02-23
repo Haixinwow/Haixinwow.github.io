@@ -3,57 +3,6 @@ import projects from "../data/projects.json"
 import '../App.css'
 const workList = projects
 
-// const workList = [
-//     {
-//         id: "ecobee3-lite-thermostats-redesign",
-//         src: "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/23cd4095-e2a7-40bf-8017-1408a800b172_rwc_0x0x1133x885x1133.png?h=ac113c0bb3e4e88fc4dae8d5ef644011",
-//         title: "Ecobee3 Lite Thermostats Redesign",
-//         description: "A redesign of Ecobee3 lite thermostat, a non-conventional digital screen."
-//     },
-//     {
-//         id: "unforgotten-architecture",
-//         src: "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/f314a470-9447-440d-8b5b-3e1c216ea71f_rwc_0x0x807x631x807.png?h=ef5e0d0e5ad1f520c977317205d9c5d6",
-//         title: "(UN)Forgotten Architecture",
-//         description: "Mock-up app: A collection of disappearing buildings, put a spotlight on the demolished architecture in the great St. Louis area and it's relationship with redlining. "
-//     },
-//     {
-//         id: "tutorial-on-game-tutorial",
-//         src: "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/c2dd220c-4933-4fc2-a5ca-40b8e8c6bdac_rwc_0x0x807x631x807.png?h=823c891bf26dc9aaf0bd7c047448f3f0",
-//         title: "Tutorial²: Tutorial on Game Tutorial",
-//         description: "Group work: Lo-Fi wireframe, a guide on how to make a good tutorial for a video game. UX research data included. "
-//     },
-//     {
-//         id: "weather-app-rebrand",
-//         src: "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/fd008ab7-1ed6-4f20-8dca-f0b9fd7509e6_rwc_0x0x807x631x807.png?h=a52103206918c6e5b7f4b314fc306fa9",
-//         title: "Mock-up: Weather App Rebrand",
-//         description: "A rebranding of the Weather app, focusing on star gazing weather forecast instead of average summary of the weather"
-//     }, 
-//     {
-//         id: "wake-up-app",
-//         src: "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/ae189070-1c4a-4ada-a8c2-a9cbe2687e5e_rwc_0x0x807x631x640.png?h=e9002ec5e68231eabc60a154afe9d823",
-//         title: "Wake Up App: Infographic",
-//         description: "A mock-up website that allows you to document your daily sleep schedule and outfit plan"
-//     }, 
-//     {
-//         id: "disaster-gourmet",
-//         src: "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/4e2a3717-34dc-4d4c-871a-5befb09db1f5_rwc_0x0x807x631x640.png?h=ec485af41c020bbe21dec407865b71d0",
-//         title: "Disaster Gourmet",
-//         description: "A mock-up website for a collection of things, in this case, horrendous cooking."
-//     }, 
-//     {
-//         id: "interview-with-wes-anderson",
-//         src: "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/7d44031f-8f61-4ad8-836c-bb7d97cd9811_rwc_0x0x807x631x640.png?h=a409e15489558f51d511e5dac4b66446",
-//         title: "Mock-up: Interview with Wes Anderson",
-//         description: "A redesign of web page WES ANDERSON: “WE ARE USUALLY DOING IT ONE WAY” by The Talks"
-//     }, 
-//     {
-//         id: "waam",
-//         src: "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/bb2b6d3b-a106-4d08-9902-d88c0f625235_rwc_0x0x807x631x640.png?h=050b9723203319ea20983faf058fcca2",
-//         title: "Research: WAAM",
-//         description: "A Literature Review of WAAM and Future Application in Buildings"
-//     }
-    
-// ]
 const AllWorks = () => {
 
 
@@ -67,15 +16,15 @@ const AllWorks = () => {
                     <div className="details-wrap">
                         <div className="details">
                             <div className="details-inner">
-                                <div className="title preserve-whitespace"><b>{work.title}</b></div>
-                                <div className="description">
+                                <div className="title preserve-whitespace"><b className="project-title">{work.title}</b></div>
+                                <div className="description project-title">
                                     {work.description}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </Link>
-            ))};
+            ))}
         </div>
     );
 }

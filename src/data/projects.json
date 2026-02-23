@@ -3,22 +3,60 @@
         "id": "support-programmer",
         "tag": "research",
         "src": "/assets/cover_page_supporting_programmer.png",
-        "title": "Supporting Programmers Answering the Hard-To-Answer  Questions Through the Use of Large Language Models",
-        "description": "A Literature Review of WAAM and Future Application in Buildings"
+        "title": "Supporting Programmers Answering the Hard-To-Answer Questions Through the Use of Large Language Models",
+        "description": "Ongoing research focused on transforming programmers’ rarely used code history into actionable insights, using large language models within a VS Code extension. "
     },
     {
         "id": "interruption",
         "tag": "research",
-        "src": "../../assets/cover_page_interruption.png",
+        "src": "/assets/cover_page_interruption.png",
         "title": "Interruptions and Recovery: Leveraging Dynamic Code History in Development",
-        "description": "A Literature Review of WAAM and Future Application in Buildings"
+        "description": "Study of how a sub-goal history interface, combining code and web activity, helps developers recover from interruptions more effectively by improving re-engagement and use of past work."
     },
     {
         "id": "ecobee3-redesign",
         "tag": "uiux",
         "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/23cd4095-e2a7-40bf-8017-1408a800b172_rwc_0x0x1133x885x1133.png?h=ac113c0bb3e4e88fc4dae8d5ef644011",
         "title": "Ecobee3 Lite Thermostats Redesign",
-        "description": "A redesign of Ecobee3 lite thermostat, a non-conventional digital screen."
+        "description": "A redesign of Ecobee3 lite thermostat, a non-conventional digital screen.",
+        "content": [
+            {
+                "type": "text",
+                "value": "In this project, I chose to redesign the UI/screen of Ecobee3 lite. I have this thermostat in my apartment but the UI has always been annoying me since day 1. The design of the UI is no way bad but it is the minor inconveniences that made me wonder if there is a better way to design it. "
+            },
+            {
+                "type": "image",
+                "src": "/assets/ecobee/ecobee1.png"
+            },
+            {
+                "type": "image",
+                "src": "/assets/ecobee/ecobee2.png"
+            },
+            {
+                "type": "image",
+                "src": "/assets/ecobee/ecobee3.png"
+            },
+            {
+                "type": "image",
+                "src": "/assets/ecobee/ecobee4.png"
+            },
+            {
+                "type": "image",
+                "src": "/assets/ecobee/ecobee5.png"
+            },
+            {
+                "type": "image",
+                "src": "/assets/ecobee/ecobee6.png"
+            },
+            {
+                "type": "image",
+                "src": "/assets/ecobee/ecobee7.png"
+            },
+            {
+                "type": "embed",
+                "code": "<iframe style=\"border: 1px solid rgba(0, 0, 0, 0.1);\" width=\"80%\" height=\"450\" src=\"https://embed.figma.com/proto/AtLYgtmX87oPuXH0tQzdnC/AVPS?node-id=89-5&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=89%3A5&show-proto-sidebar=1&embed-host=share\" allowfullscreen></iframe>"
+            }
+        ]
     },
     {
         "id": "unforgotten-architecture",
@@ -40,21 +78,21 @@
         "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/fd008ab7-1ed6-4f20-8dca-f0b9fd7509e6_rwc_0x0x807x631x807.png?h=a52103206918c6e5b7f4b314fc306fa9",
         "title": "Mock-up: Weather App Rebrand",
         "description": "A rebranding of the Weather app, focusing on star gazing weather forecast instead of average summary of the weather"
-    }, 
+    },
     {
         "id": "wake-up-app",
         "tag": "uiux",
         "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/ae189070-1c4a-4ada-a8c2-a9cbe2687e5e_rwc_0x0x807x631x640.png?h=e9002ec5e68231eabc60a154afe9d823",
         "title": "Wake Up App: Infographic",
         "description": "A mock-up website that allows you to document your daily sleep schedule and outfit plan"
-    }, 
+    },
     {
         "id": "disaster-gourmet",
         "tag": "uiux",
         "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/4e2a3717-34dc-4d4c-871a-5befb09db1f5_rwc_0x0x807x631x640.png?h=ec485af41c020bbe21dec407865b71d0",
         "title": "Disaster Gourmet",
         "description": "A mock-up website for a collection of things, in this case, horrendous cooking."
-    }, 
+    },
     {
         "id": "interview-with-wes-anderson",
         "tag": "uiux",
@@ -67,6 +105,34 @@
         "tag": "research",
         "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/bb2b6d3b-a106-4d08-9902-d88c0f625235_rwc_0x0x807x631x640.png?h=050b9723203319ea20983faf058fcca2",
         "title": "Research: WAAM",
-        "description": "A Literature Review of WAAM and Future Application in Buildings"
+        "description": "Literature review evaluating Wire Arc Additive Manufacturing (WAAM) for the AEC industry, focusing on its sustainability, scalability, and potential to improve metal component production."
+    },
+    {
+        "id": "architecture",
+        "tag": "architecture",
+        "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/49ae5a74-0ad1-497e-9ba2-fa2ed938e31b_rwc_264x0x2532x1980x1280.jpg?h=62be9c3dc7d57a7763dd8cea2b1e1c73",
+        "title": "Architecture Portfolio",
+        "description": "2019-2023 Architecture works"
+    },
+    {
+        "id": "personal-space",
+        "tag": "photography",
+        "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/c2ecc43c-3d5d-438c-96b5-5285dedb31d6_rwc_282x0x3274x2560x640.jpg?h=2cfb79555bc8a871ecbf0b6483c64881",
+        "title": "Personal Space",
+        "description": ""
+    },
+    {
+        "id": "collection",
+        "tag": "photography",
+        "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/181e564a-b233-45e6-9539-ddea48155cce_carw_202x158x640.jpg?h=f5a7385b21383b8ca2a67124c8289dc4",
+        "title": "Collection",
+        "description": ""
+    },
+    {
+        "id": "place-making",
+        "tag": "photography",
+        "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/cf9c56fb-922a-414d-a374-6b5b0df2ccee_rwc_141x0x1637x1280x640.jpg?h=6bba6eb128732f5270f1a434e97d9228",
+        "title": "Place Making",
+        "description": ""
     }
 ]

@@ -20,7 +20,7 @@ const Navigation = () => {
             </div>
             <nav>
                 {NavList.map((item) => (
-                    <Link key={item.navID} to={item.url}>{item.navType}</Link>
+                    <Link key={item.navID} to={item.url} className="nav-link">{item.navType}</Link>
                 ))}
             </nav>
         </div>

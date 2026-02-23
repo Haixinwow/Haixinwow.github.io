@@ -1,13 +1,20 @@
 body {
-    margin: 0%;
+    /* margin: 0%; */
     height: 100%;
     background-color: rgb(255, 251, 246);
     font-family: Arial, Helvetica, sans-serif;
     cursor: url('cursor.png'), auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
 }
 
-a:link {
+.nav-link {
     text-decoration: none !important;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 13px;
 }
 
 .navigation {
@@ -16,7 +23,6 @@ a:link {
     border-radius: 25px;
     /* border: 2px solid black; */
     width: 25%;
-    
 }
 
 .works {
@@ -54,7 +60,7 @@ nav {
 a {
     color: black;
     margin: 20px;
-    padding-left: 100px;
+    padding-left: 10%;
     display: flex;
     overflow: hidden;
     background-color: none;
@@ -67,18 +73,14 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding-top: 5vh;
-    margin-right: 5vh;
-    height: 90vh;
-    /* border-radius: 25px; */
-    /* border: 2px solid black; */
-    overflow: scroll;
+    margin: 0 auto;
 }
 
 .project-cover {
     width: 330px;
     display: flex;
     flex-direction: column;
-    margin-right: 2%;
+    margin-right: 1%;
     padding-left: 0;
 }
 
@@ -134,14 +136,18 @@ a {
     display: none;
 }
 
-@media screen and (max-width: 1535px) {
+.project-title, a:link {
+    text-decoration: none !important;
+}
+
+@media screen and (max-width: 1629px) {
     .project-cover{
-        width: 29.5%;
-        margin-left: auto;
+        width: 30.48%;
+        margin-left: 1%;
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 900px) {
     .navigation {
         display: none;
     }

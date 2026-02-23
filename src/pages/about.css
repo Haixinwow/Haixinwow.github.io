@@ -1,0 +1,143 @@
+.about-container {
+    width: 90%;
+    margin: 60px auto;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #222;
+}
+
+.about-hero {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.about-text h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.about-text h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.skills-section {
+    margin-bottom: 20px;
+}
+
+.skills-section h3 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.skill-group h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.skill-group ul {
+    list-style:inside;
+    padding: 0;
+}
+
+.skill-group li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 22px;
+    font-size: 15px;
+}
+
+/* Checkmark style */
+.skill-group li::before {
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.about-personal h3 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.personal-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 60px;
+}
+
+.about-personal {
+    align-items: center;
+    gap: 60px;
+}
+
+.personal-text {
+    flex: 1;
+    line-height: 1.7;
+}
+
+.jojo-image {
+    width: 300px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.kitties {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kitty-image {
+    width: 400px;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.kitty-description {
+    margin: auto;
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .about-hero,
+    .about-personal .personal-text-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image,
+    .jojo-image {
+        width: 70%;
+    }
+
+    .kitty-image {
+        width: 100%;
+    }
+}
