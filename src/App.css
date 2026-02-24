@@ -187,6 +187,10 @@ a:link {
         margin: auto;
     }
 
+    iframe {
+        height: 777px;
+    }
+
     .project-cover {
         width: 100%;
     }

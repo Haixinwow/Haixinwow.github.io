@@ -1,5 +1,6 @@
 import projects from '../data/projects.json'
 import './project_detail.css'
+import RenderContent from './render_content';
 const workList = projects
 import { useParams, Link } from 'react-router-dom';
 
@@ -11,28 +12,11 @@ const ProjectDatil = () => {
         <div className="content">
             <nav>
                 <Link to="/all-works">← Back to Works</Link>
-                <br></br>
+                <br/>
             </nav>
             <h1 className="project-title" style={{ margin: 'auto' }}>{project.title}</h1>
             <h4 className="project-description">{project.description}</h4>
-            {
-                project.content.map((item) => {
-                    if (item.type === "text") {
-                        return <p>{item.value}</p>
-                    }
-                    if (item.type === "image") {
-                        return <img src={item.src} alt="Haixin Zhou" style={{ width: '80%', margin: 'auto' }} />
-                    }
-                    if (item.type === "embed") {
-                        return (
-                            <div
-                                dangerouslySetInnerHTML={{ __html: item.code }}
-                                style={{ width: '100%', textAlign: 'center' }}
-                            />
-                        )
-                    }
-                })
-            }
+            <RenderContent items={project.content} />
         </div>
 
     );

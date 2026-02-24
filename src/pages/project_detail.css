@@ -5,3 +5,9 @@
 .project-description {
     color: rgb(153, 153, 153);
 }
+
+.subtitles {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}

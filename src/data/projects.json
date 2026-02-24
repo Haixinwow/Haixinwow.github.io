@@ -32,6 +32,10 @@
         "description": "Study of how a sub-goal history interface, combining code and web activity, helps developers recover from interruptions more effectively by improving re-engagement and use of past work.",
         "content": [
             {
+                "type": "text",
+                "value": "Programmer interruptions are common and disruptive. While research has focused on understanding their nature, impact, and associated recovery cost, others have looked at visual reminders of recent development actions as recovery support mechanisms. Until now, however, these have only extended as far as the timeline of source code change alone. Thus, there are opportunities to improve this information in a codebase's history to better support programmers' interruption recovery. We conducted a within-subjects exploratory study investigating how developers use code history during interruption recovery. We compared a new sub-goal history interface, which contextually organized code changes and web activity into sub-goals, with an existing chronological timeline tool support identified in the literature. Our findings reveal that developers significantly leveraged the sub-goal history interface more frequently during post-interruption recovery, suggesting its potential to improve how developers navigate past work. While not leading to a significant reduction in overall recovery time in this study, sub-goal history provided valuable support for integrating external resources, facilitated faster initial re-engagement, and showed a generally better recovery success rate. We observed developers employing diverse, multi-modal strategies, and, importantly, our results highlight recovery as a multi-stage process rather than a single event. These insights emphasize the crucial role of history-aware tool support for recovery workflows and underscore the need for designs that balance contextual detail with usability and adaptability to effectively support both developers' passive (reading through information) and active (searching for information) engagement with the recovery tool support."
+            },
+            {
                 "type": "embed",
                 "code": "<iframe src=\"/assets/Interruptions_and_Recovery_VLHCC.pdf\" width=\"100%\" height=\"900\" allowfullscreen></iframe>"
             }
@@ -90,8 +94,62 @@
         "description": "Mock-up app: A collection of disappearing buildings, put a spotlight on the demolished architecture in the great St. Louis area and it's relationship with redlining. ",
         "content": [
             {
+                "type": "subtitle",
+                "value": "Inspiration"
+            },
+            {
+                "type": "text",
+                "value": "As an architecture major residing in St. Louis, I have noticed too many demolished/decayed architecture. I am curious myself as to what is the relationship between the demolished building and their geographic locations. "
+            },
+            {
+                "type": "text",
+                "value": "Architect professor Michael Allen has a website \"Preservation Research Office\" on preserving architecture in St. Louis; it has a page dedicated to the disappearing architecture in the greater St. Louis area. I want to improve upon this website and put a spotlight on the disappearing architecture in the great St. Louis area and architectures relation with its geographical location."
+            },
+            {
+                "type": "multi",
+                "direction": "row",
+                "items": [
+                    {
+                        "type": "multi",
+                        "direction": "column",
+                        "items": [
+                            {
+                                "type": "subtitle",
+                                "value": "Content Architecture"
+                            },
+                            {
+                                "type": "text",
+                                "value": "I want this app to be an experience rather than just an app introducing the demolished architecture. Therefore, I decided that once the user click into one of the individual architecture page, they must circulate all the architectures introduced in order to progress. "
+                            }
+                        ]
+                    },
+                    {
+                        "type": "image",
+                        "src": "/assets/unforgotten-architecture/ua1.png"
+                    }
+                ]
+            },
+            {
+                "type": "multi",
+                "direction": "row",
+                "items": [
+                    {
+                        "type": "subtitle",
+                        "value": "Wireframe"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/assets/unforgotten-architecture/ua2.png"
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "src": "/assets/unforgotten-architecture/ua3.png"
+            },
+            {
                 "type": "embed",
-                "code": "<iframe style=\"border: 1px solid rgba(0, 0, 0, 0.1);\" width=\"80%\" height=\"450\" src=\"https://embed.figma.com/proto/6AyNmTJKRwW7WDeGKzPUaS/Portfolio?node-id=221-1843&scaling=scale-down&content-scaling=fixed&page-id=221%3A437&starting-point-node-id=221%3A1981&embed-host=share\" allowfullscreen></iframe>"
+                "code": "<iframe style=\"border: 1px solid rgba(0, 0, 0, 0.1);\" width=\"80%\" height=\"777\" src=\"https://embed.figma.com/proto/6AyNmTJKRwW7WDeGKzPUaS/Portfolio?node-id=221-1843&scaling=scale-down&content-scaling=fixed&page-id=221%3A437&starting-point-node-id=221%3A1981&embed-host=share\" allowfullscreen></iframe>"
             }
         ]
     },
@@ -102,6 +160,114 @@
         "title": "Tutorial²: Tutorial on Game Tutorial",
         "description": "Group work: Lo-Fi wireframe, a guide on how to make a good tutorial for a video game. UX research data included. ",
         "content": [
+             {
+                "type": "subtitle",
+                "value": "Introduction"
+            },
+            {
+                "type": "text",
+                "value": "There is no universal way that tutorials are designed for games; in reality, the methodology for teaching players varies greatly between games. However, too often, games use ineffective teaching methods in their tutorials to prepare players, and we would like to analyze why."
+            },
+            {
+                "type": "text",
+                "value": "By drawing from players, developers, secondary research, and by analyzing games, we have determined some key principles that can inform the way a developer prepares and designs their games’ tutorial."
+            },
+            {
+                "type": "subtitle",
+                "value": "Research Goals and Objectives"
+            },
+            {
+                "type": "text",
+                "value": "1. Learn about how designers design their games and what the purpose behind their choices are."
+            },
+            {
+                "type": "text",
+                "value": "2. Understand the effectiveness/ineffectiveness of game tutorials"
+            },
+            {
+                "type": "text",
+                "value": "3. Understand the importance of video game tutorials for different types of players"
+            },
+            {
+                "type": "text",
+                "value": "4. Understand people’s views on different types of video game tutorials"
+            },
+            {
+                "type": "text",
+                "value": "5. Find out the best practices that any developer can implement in their game to best teach players"
+            },
+            {
+                "type": "subtitle",
+                "value": "Research Questions"
+            },
+            {
+                "type": "text",
+                "value": "1. How do players react to different types of game tutorials and do people prefer implicit tutorials or explicit tutorials?"
+            },
+            {
+                "type": "text",
+                "value": "2. What are some of the commonly used effective design techniques that game developers use in their tutorials?"
+            },
+            {
+                "type": "text",
+                "value": "3. What are some ways that we can improve the effectiveness of video game tutorials?"
+            },
+            {
+                "type": "text",
+                "value": "4. Does a person’s familiarity with video games change the effectiveness of tutorials?"
+            },
+            {
+                "type": "text",
+                "value": "5. Does having a tutorial improve the overall gaming experience?"
+            },
+            {
+                "type": "subtitle",
+                "value": "Personas"
+            },
+            {
+                "type": "multi",
+                "direction": "row",
+                "items": [
+                    {
+                        "type": "image",
+                        "src": "/assets/tutorial/t1.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/assets/tutorial/t2.png"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/assets/tutorial/t3.png"
+                    }
+                ]
+            },
+            {
+                "type": "subtitle",
+                "value": "User Journey"
+            },
+            {
+                "type": "multi",
+                "direction": "row",
+                "items": [
+                    {
+                        "type": "image",
+                        "src": "/assets/tutorial/t4.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/assets/tutorial/t5.png"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/assets/tutorial/t6.png"
+                    }
+                ]
+            },
+            {
+                "type": "subtitle",
+                "value": "Detailed Report Below: "
+            },
             {
                 "type": "embed",
                 "code": "<div style=\"position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;\">  <iframe loading=\"lazy\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;\"    src=\"https://www.canva.com/design/DAF1p-1b66c/view?embed\" allowfullscreen=\"allowfullscreen\" allow=\"fullscreen\">  </iframe></div><a href=\"https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1p-1b66c&#x2F;view?utm_content=DAF1p-1b66c&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link\" target=\"_blank\" rel=\"noopener\">"
