@@ -1,4 +1,3 @@
-import About from "./pages/about";
 import { Link } from "react-router-dom";
 
 

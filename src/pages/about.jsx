@@ -15,7 +15,7 @@ const About = () => {
                         <h2>Software Engineer | M.S. Computer Science</h2>
 
                         <p>
-                            I am a Software Engineer with a Master of Science in Computer Science from Washington University in St. Louis. My work centers on building intelligent developer tools with a strong emphasis on human centered design and frontend engineering. I am particularly interested in designing intuitive, accessible interfaces and leveraging large language models to improve how programmers understand, navigate, and interact with code.
+                            I am a Bay Area based Software Engineer with a Master of Science in Computer Science from Washington University in St. Louis. My work centers on building intelligent developer tools with a strong emphasis on human centered design and frontend engineering. I am particularly interested in designing intuitive, accessible interfaces and leveraging large language models to improve how programmers understand, navigate, and interact with code.
                         </p>
 
                         <p>

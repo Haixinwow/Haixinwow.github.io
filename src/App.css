@@ -1,5 +1,9 @@
 body {
-    /* margin: 0%; */
+    margin: 0%;
+    background-color: rgb(255, 251, 246);
+}
+
+.menu-closed {
     height: 100%;
     background-color: rgb(255, 251, 246);
     font-family: Arial, Helvetica, sans-serif;
@@ -7,6 +11,31 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
+}
+
+.hamburger-click-area {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 28px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger i {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
 }
 
 .nav-link {
@@ -23,6 +52,7 @@ body {
     border-radius: 25px;
     /* border: 2px solid black; */
     width: 25%;
+    position: fixed;
 }
 
 .works {
@@ -70,11 +100,14 @@ a {
 
 .content {
     width: 75%;
+    margin-left: 25%;
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
+    justify-content: flex-start;
+    overflow: visible;
     padding-top: 5vh;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    gap: 1%;
 }
 
 .project-cover {
@@ -137,18 +170,27 @@ a {
     display: none;
 }
 
-.project-title, a:link {
+.project-title,
+a:link {
     text-decoration: none !important;
 }
 
 @media screen and (max-width: 1629px) {
-    .project-cover{
-        width: 30.48%;
-        margin-left: 1%;
+    .project-cover {
+        width: 45%;
+        /* margin-left: auto; */
     }
 }
 
 @media screen and (max-width: 900px) {
+    .content {
+        margin: auto;
+    }
+
+    .project-cover {
+        width: 100%;
+    }
+
     .navigation {
         display: none;
     }
@@ -161,5 +203,19 @@ a {
         clear: left;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .navigation {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 70%;
+        height: 100vh;
+        background: white;
+        z-index: 999;
+    }
+
+    .hamburger-click-area {
+        display: inline;
     }
 }

@@ -7,7 +7,19 @@
         "description": "Ongoing research focused on transforming programmers’ rarely used code history into actionable insights, using large language models within a VS Code extension. ",
         "content": [
             {
-                "type": "embed", 
+                "type": "text",
+                "value": "Programmers often face hard-to-answer questions when working on large-scale projects. Not only during team collaborations, but also during interruptions such as meetings, having to suddenly work on another project, or even just taking a break are major reasons these questions arise, as programmers have to regain the context, knowledge, and mental state to resume the work. Traditional text editors such as GitHub do provide a built-in history system, but they lack historical context behind the editing to answer such questions."
+            },
+            {
+                "type": "text",
+                "value": "To address this issue, we developed an experimental extension, Code History, on Visual Studio Code (VS Code) in the hope of finding a way that enables programmers to make effective use of these subgoal-based histories to answer hard-to-answer questions. We have created this extension through a step-by-step process where one feature is built on top of another. We began with the interface design, where we created an interface that is intuitive for users. That created a solid foundation for the next mechanism of the extension in which the extension can generate subgoal summaries based on editing histories. In addition to displaying summarized user intentions, Code Histories also displays any web searches and links accessed by the programmers during the time when they were working on the subgoal. Lastly, we have integrated large language models (LLMs) such as ChatGPT and Gemini to improve the user’s experience by letting the programmer search for a specific piece of history. Rather than being conversational, the LLMs are used to retrieve and filter relevant subgoal histories in response to the users’ questions/commands. With the help of Code History, programmers can now access contextualized histories and answer questions about the code that would otherwise be difficult to answer through a list of history alone."
+            },
+            {
+                "type": "text",
+                "value": "The goal of this thesis is to enable us to test the hypothesis that question-based interfaces for sub-goal histories will better support programmers in answering hard-to-answer questions than the commonly available supports today. Pilot studies have suggested that, with some minimal alteration to the test format and interface design, we will be able to move on to the user testing phase."
+            },
+            {
+                "type": "embed",
                 "code": "<iframe src=\"/assets/Supporting-Programmers-Answering-the-Hard-To-Answer-Questions.pdf\" width=\"100%\" height=\"900\" allowfullscreen></iframe>"
             }
         ]
@@ -20,7 +32,7 @@
         "description": "Study of how a sub-goal history interface, combining code and web activity, helps developers recover from interruptions more effectively by improving re-engagement and use of past work.",
         "content": [
             {
-                "type": "embed", 
+                "type": "embed",
                 "code": "<iframe src=\"/assets/Interruptions_and_Recovery_VLHCC.pdf\" width=\"100%\" height=\"900\" allowfullscreen></iframe>"
             }
         ]
@@ -75,10 +87,10 @@
         "tag": "uiux",
         "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/f314a470-9447-440d-8b5b-3e1c216ea71f_rwc_0x0x807x631x807.png?h=ef5e0d0e5ad1f520c977317205d9c5d6",
         "title": "(UN)Forgotten Architecture",
-        "description": "Mock-up app: A collection of disappearing buildings, put a spotlight on the demolished architecture in the great St. Louis area and it's relationship with redlining. ", 
+        "description": "Mock-up app: A collection of disappearing buildings, put a spotlight on the demolished architecture in the great St. Louis area and it's relationship with redlining. ",
         "content": [
             {
-                "type": "embed", 
+                "type": "embed",
                 "code": "<iframe style=\"border: 1px solid rgba(0, 0, 0, 0.1);\" width=\"80%\" height=\"450\" src=\"https://embed.figma.com/proto/6AyNmTJKRwW7WDeGKzPUaS/Portfolio?node-id=221-1843&scaling=scale-down&content-scaling=fixed&page-id=221%3A437&starting-point-node-id=221%3A1981&embed-host=share\" allowfullscreen></iframe>"
             }
         ]
@@ -88,10 +100,10 @@
         "tag": "uiux",
         "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/c2dd220c-4933-4fc2-a5ca-40b8e8c6bdac_rwc_0x0x807x631x807.png?h=823c891bf26dc9aaf0bd7c047448f3f0",
         "title": "Tutorial²: Tutorial on Game Tutorial",
-        "description": "Group work: Lo-Fi wireframe, a guide on how to make a good tutorial for a video game. UX research data included. ", 
+        "description": "Group work: Lo-Fi wireframe, a guide on how to make a good tutorial for a video game. UX research data included. ",
         "content": [
             {
-                "type": "embed", 
+                "type": "embed",
                 "code": "<div style=\"position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;\">  <iframe loading=\"lazy\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;\"    src=\"https://www.canva.com/design/DAF1p-1b66c/view?embed\" allowfullscreen=\"allowfullscreen\" allow=\"fullscreen\">  </iframe></div><a href=\"https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1p-1b66c&#x2F;view?utm_content=DAF1p-1b66c&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link\" target=\"_blank\" rel=\"noopener\">"
             }
         ]
@@ -101,10 +113,10 @@
         "tag": "uiux",
         "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/fd008ab7-1ed6-4f20-8dca-f0b9fd7509e6_rwc_0x0x807x631x807.png?h=a52103206918c6e5b7f4b314fc306fa9",
         "title": "Mock-up: Weather App Rebrand",
-        "description": "A rebranding of the Weather app, focusing on star gazing weather forecast instead of average summary of the weather", 
+        "description": "A rebranding of the Weather app, focusing on star gazing weather forecast instead of average summary of the weather",
         "content": [
             {
-                "type": "embed", 
+                "type": "embed",
                 "code": "<iframe style=\"border: 1px solid rgba(0, 0, 0, 0.1);\" width=\"80%\" height=\"450\" src=\"https://embed.figma.com/proto/6AyNmTJKRwW7WDeGKzPUaS/Portfolio?node-id=221-1271&scaling=scale-down&content-scaling=fixed&page-id=221%3A438&starting-point-node-id=221%3A1271&embed-host=share\" allowfullscreen></iframe>"
             }
         ]
@@ -117,7 +129,7 @@
         "description": "A mock-up website that allows you to document your daily sleep schedule and outfit plan",
         "content": [
             {
-                "type": "embed", 
+                "type": "embed",
                 "code": "<iframe style=\"border: 1px solid rgba(0, 0, 0, 0.1);\" width=\"80%\" height=\"450\" src=\"https://embed.figma.com/proto/6AyNmTJKRwW7WDeGKzPUaS/Portfolio?node-id=124-272&scaling=scale-down&content-scaling=fixed&page-id=124%3A2&starting-point-node-id=124%3A418&embed-host=share\" allowfullscreen></iframe>"
             }
         ]
@@ -130,7 +142,7 @@
         "description": "A mock-up website for a collection of things, in this case, horrendous cooking.",
         "content": [
             {
-                "type": "embed", 
+                "type": "embed",
                 "code": "<iframe style=\"border: 1px solid rgba(0, 0, 0, 0.1);\" width=\"80%\" height=\"450\" src=\"https://embed.figma.com/proto/6AyNmTJKRwW7WDeGKzPUaS/Portfolio?node-id=294-4468&scaling=scale-down&content-scaling=fixed&page-id=27%3A14&starting-point-node-id=294%3A4227&show-proto-sidebar=1&embed-host=share\" allowfullscreen></iframe>"
             }
         ]
@@ -143,7 +155,7 @@
         "description": "A redesign of web page WES ANDERSON: “WE ARE USUALLY DOING IT ONE WAY” by The Talks",
         "content": [
             {
-                "type": "embed", 
+                "type": "embed",
                 "code": "<iframe style=\"border: 1px solid rgba(0, 0, 0, 0.1);\" width=\"80%\" height=\"450\" src=\"https://embed.figma.com/proto/6AyNmTJKRwW7WDeGKzPUaS/Portfolio?node-id=124-2008&scaling=scale-down&content-scaling=fixed&page-id=124%3A2006&embed-host=share\" allowfullscreen></iframe>"
             }
         ]

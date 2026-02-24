@@ -1,4 +1,5 @@
 import projects from '../data/projects.json'
+import './project_detail.css'
 const workList = projects
 import { useParams, Link } from 'react-router-dom';
 
@@ -7,7 +8,7 @@ const ProjectDatil = () => {
     const project = workList.find((item) => item.id === projectId);
 
     return (
-        <div className="content" style={{ padding: '20px' }}>
+        <div className="content">
             <nav>
                 <Link to="/all-works">← Back to Works</Link>
                 <br></br>
