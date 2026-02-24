@@ -10,11 +10,10 @@ const ProjectDatil = () => {
 
     return (
         <div className="content">
-            <nav>
-                <Link to="/all-works">← Back to Works</Link>
-                <br/>
+            <nav className="backnav">
+                <Link to="/all-works" className='backbtn'>← Back to Works</Link>
             </nav>
-            <h1 className="project-title" style={{ margin: 'auto' }}>{project.title}</h1>
+            <h1 className="project-title">{project.title}</h1>
             <h4 className="project-description">{project.description}</h4>
             <RenderContent items={project.content} />
         </div>

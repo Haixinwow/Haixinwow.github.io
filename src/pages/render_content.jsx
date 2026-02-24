@@ -2,7 +2,7 @@
 const RenderContent = ({ items }) => {
     return items.map((item, index) => {
         if (item.type === "text") {
-            return <p key={index}>{item.value}<br/></p>;
+            return <p key={index} className="project-text">{item.value}<br/></p>;
         }
 
         if (item.type === "subtitle") {
@@ -53,10 +53,9 @@ const RenderContent = ({ items }) => {
                             return (
                                 <div
                                     key={i}
-                                    style={{
-                                        flex: `1 1 ${100 / item.items.length}%`,
-                                        minWidth: '150px',
-                                    }}
+                                    // style={{
+                                    //     flex: `1 1 ${100 / item.items.length}%`,
+                                    // }}
                                 >
                                     <RenderContent items={[child]} />
                                 </div>

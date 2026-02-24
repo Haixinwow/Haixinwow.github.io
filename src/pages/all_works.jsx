@@ -8,23 +8,46 @@ const AllWorks = () => {
 
     return (
         <div className="content">
-            {workList.map((work) => (
-                <Link to= {`/work/${work.id}`} key= {work.id} className="project-cover">
-                    <div className="cover-image-wrap">
-                        <img className="cover__img js-lazy image-loaded" src={work.src} />
-                    </div>
-                    <div className="details-wrap">
-                        <div className="details">
-                            <div className="details-inner">
-                                <div className="title preserve-whitespace"><b className="project-title">{work.title}</b></div>
-                                <div className="description project-title">
-                                    {work.description}
+            {workList.map((work) => {
+                if (work.id === 'architecture') {
+                    return (
+                        <Link to={`/${work.id}`} key={work.id} className="project-cover">
+                            <div className="cover-image-wrap">
+                                <img className="cover__img js-lazy image-loaded" src={work.src} />
+                            </div>
+                            <div className="details-wrap">
+                                <div className="details">
+                                    <div className="details-inner">
+                                        <div className="title preserve-whitespace"><b className="project-title">{work.title}</b></div>
+                                        <div className="description project-title">
+                                            {work.description}
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </Link>
-            ))}
+                        </Link>
+                    )
+                } else {
+                    return (
+                        <Link to={`/work/${work.id}`} key={work.id} className="project-cover">
+                            <div className="cover-image-wrap">
+                                <img className="cover__img js-lazy image-loaded" src={work.src} />
+                            </div>
+                            <div className="details-wrap">
+                                <div className="details">
+                                    <div className="details-inner">
+                                        <div className="title preserve-whitespace"><b className="project-title">{work.title}</b></div>
+                                        <div className="description project-title">
+                                            {work.description}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
+                    )
+
+                }
+            })}
         </div>
     );
 }
