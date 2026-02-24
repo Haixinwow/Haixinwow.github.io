@@ -72,6 +72,7 @@ a {
     width: 75%;
     display: flex;
     flex-wrap: wrap;
+    overflow: scroll;
     padding-top: 5vh;
     margin: 0 auto;
 }
