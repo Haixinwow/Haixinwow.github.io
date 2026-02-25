@@ -20,6 +20,10 @@ const Navigation = () => {
                 {NavList.map((item) => (
                     <Link key={item.navID} to={item.url} className="nav-link">{item.navType}</Link>
                 ))}
+                <div className="contacts">
+                    <i className="fa-brands fa-linkedin contact" ></i>
+                    <i class="fa-solid fa-envelope contact"></i>
+                </div>
             </nav>
         </div>
     );

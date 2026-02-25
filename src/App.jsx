@@ -9,39 +9,49 @@ import Architecture from './pages/architecture';
 import Resume from './pages/resume';
 import ProjectDetail from './pages/project_detail';
 import HamburgerNav from './pages/hamburgerNav';
+import Footer from './footer';
 import * as React from 'react'
 
-const App = ({menuOpen, setMenuOpen}) => {
+const App = ({ menuOpen, setMenuOpen }) => {
 
   // const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className={`main`}>
 
-      <Router>
-        <Navigation />
-        <div className="hamburger-click-area" onClick={() => setMenuOpen(!menuOpen)}>
-          <div className="hamburger">
-            <i></i>
-            <i></i>
-            <i></i>
+
+    <Router>
+      <div className={`main`}>
+
+
+        <div className="page">
+          <Navigation />
+          <div className="hamburger-click-area" onClick={() => setMenuOpen(!menuOpen)}>
+            <div className="hamburger">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
           </div>
+
+          {menuOpen && (
+            <HamburgerNav closeMenu={() => setMenuOpen(false)} />
+          )}
+
+          <Routes>
+            <Route path='/' element={<About />} />
+            <Route path='/all-works' element={<AllWorks />} />
+            <Route path='/uiux' element={<Uiux />} />
+            <Route path='/architecture' element={<Architecture />} />
+            <Route path='/:category/:projectId' element={<ProjectDetail />} />
+            <Route path='/resume' element={<Resume />} />
+          </Routes>
         </div>
 
-        {menuOpen && (
-          <HamburgerNav closeMenu={() => setMenuOpen(false)} />
-        )}
+        <Footer />
+        
+      </div>
+    </Router>
 
-        <Routes>
-          <Route path='/' element={<About />} />
-          <Route path='/all-works' element={<AllWorks />} />
-          <Route path='/uiux' element={<Uiux />} />
-          <Route path='/architecture' element={<Architecture />} />
-          <Route path='/:category/:projectId' element={<ProjectDetail />} />
-          <Route path='/resume' element={<Resume />} />
-        </Routes>
-      </Router>
-    </div>
   );
 }
 
