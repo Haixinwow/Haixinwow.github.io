@@ -19,8 +19,6 @@ const HamburgerNav = ({ closeMenu }) => {
 
                 <Link to="/architecture" onClick={closeMenu} className="page-title">ARCHITECTURE</Link>
 
-                <Link to="/photography" onClick={closeMenu} className="page-title">PHOTOGRAPHY</Link>
-
                 <Link to="/resume" onClick={closeMenu} className="page-title">RESUME</Link>
 
             </nav>

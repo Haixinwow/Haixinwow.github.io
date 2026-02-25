@@ -7,7 +7,6 @@ const NavList = [
     { navID: 2, navType: "UI/UX", url: "/uiux"},
     // { navID: 3, navType: "GITHUB", url: "/github"},
     { navID: 4, navType: "ARCHITECTURE", url: "/architecture"},
-    { navID: 5, navType: "PHOTOGRAPHY", url: "/photography"},
     { navID: 6, navType: "RESUME", url: "/resume"}]
 
 const Navigation = () => {

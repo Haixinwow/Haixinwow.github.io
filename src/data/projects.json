@@ -440,26 +440,5 @@
         "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/49ae5a74-0ad1-497e-9ba2-fa2ed938e31b_rwc_264x0x2532x1980x1280.jpg?h=62be9c3dc7d57a7763dd8cea2b1e1c73",
         "title": "Architecture Portfolio",
         "description": "2019-2023 Architecture works"
-    },
-    {
-        "id": "personal-space",
-        "tag": "photography",
-        "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/c2ecc43c-3d5d-438c-96b5-5285dedb31d6_rwc_282x0x3274x2560x640.jpg?h=2cfb79555bc8a871ecbf0b6483c64881",
-        "title": "Personal Space",
-        "description": ""
-    },
-    {
-        "id": "collection",
-        "tag": "photography",
-        "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/181e564a-b233-45e6-9539-ddea48155cce_carw_202x158x640.jpg?h=f5a7385b21383b8ca2a67124c8289dc4",
-        "title": "Collection",
-        "description": ""
-    },
-    {
-        "id": "place-making",
-        "tag": "photography",
-        "src": "https://cdn.myportfolio.com/676b95ce-c009-486c-a004-5e4e85202942/cf9c56fb-922a-414d-a374-6b5b0df2ccee_rwc_141x0x1637x1280x640.jpg?h=6bba6eb128732f5270f1a434e97d9228",
-        "title": "Place Making",
-        "description": ""
     }
 ]

@@ -13,7 +13,7 @@
 .responsive-nav {
     float: left;
     z-index: 1000;
-    border: 2px black solid;
+    /* border: 2px black solid; */
     width: 100vw;
     height: 100vh;
     position: fixed;
