@@ -1,12 +1,12 @@
 import './App.css'
+import './footer.css'
 import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
         <div className="footer-container">
             <h3 className="footer-text">Haixin Zhou</h3>
-            <h4 className="footer-text"> Software Developer</h4>
-            <hr/>
+            <h4 className="footer-text"> Frontend Engineer</h4>
             <nav className="footer-nav">
                 <Link to="/" className="page-title">ABOUT</Link>
 
@@ -20,9 +20,15 @@ const Footer = () => {
 
             </nav>
             <div className="contacts">
+                <a href="https://www.linkedin.com/in/haixin-zhou-643349177/">
                     <i className="fa-brands fa-linkedin contact" ></i>
-                    <i class="fa-solid fa-envelope contact"></i>
-                </div>
+                </a>
+                <a href="mailto:haixin.zhou2001@gmail.com">
+                    <i className="fa-solid fa-envelope contact"></i>
+                </a>
+            </div>
+            <hr />
+            <p className='copyright'>2026 - Haixin Zhou | Designed and programmed by Haixin</p>
         </div>
     )
 }

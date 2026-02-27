@@ -2,11 +2,12 @@ import projects from '../data/projects.json'
 import './project_detail.css'
 import RenderContent from './render_content';
 const workList = projects
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 
 const ProjectDatil = () => {
     const { projectId } = useParams();
     const project = workList.find((item) => item.id === projectId);
+    
 
     return (
         <div className="content">

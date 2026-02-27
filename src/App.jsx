@@ -4,6 +4,7 @@ import './App.css'
 import Navigation from './navigation'
 import About from './pages/about'
 import AllWorks from './pages/all_works';
+import Research from './pages/research';
 import Uiux from './pages/uiux';
 import Architecture from './pages/architecture';
 import Resume from './pages/resume';
@@ -40,6 +41,7 @@ const App = ({ menuOpen, setMenuOpen }) => {
           <Routes>
             <Route path='/' element={<About />} />
             <Route path='/all-works' element={<AllWorks />} />
+            <Route path='/research' element={<Research />} />
             <Route path='/uiux' element={<Uiux />} />
             <Route path='/architecture' element={<Architecture />} />
             <Route path='/:category/:projectId' element={<ProjectDetail />} />

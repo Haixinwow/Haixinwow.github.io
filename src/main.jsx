@@ -4,6 +4,7 @@ import App from './App';
 
 function RootWrapper() {
   const [menuOpen, setMenuOpen] = useState(false);
+  // const [whichPage, setWhichPage] = useState("about");
 
   useEffect(() => {
     const rootDiv = document.getElementById('root');

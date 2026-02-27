@@ -12,10 +12,10 @@ const About = () => {
 
                     <div className="about-text">
                         <h1>Hello, I'm Haixin Zhou</h1>
-                        <h2>Software Engineer | M.S. Computer Science</h2>
+                        <h2>Frontend Engineer | M.S. Computer Science</h2>
 
                         <p>
-                            I am a Bay Area based Software Engineer with a Master of Science in Computer Science from Washington University in St. Louis. My work centers on building intelligent developer tools with a strong emphasis on human centered design and frontend engineering. I am particularly interested in designing intuitive, accessible interfaces and leveraging large language models to improve how programmers understand, navigate, and interact with code.
+                            I am a Bay Area based Frontend Engineer with a Master of Science in Computer Science from Washington University in St. Louis. My work centers on building intelligent developer tools with a strong emphasis on human centered design and frontend engineering. I am particularly interested in designing intuitive, accessible interfaces and leveraging large language models to improve how programmers understand, navigate, and interact with code.
                         </p>
 
                         <p>
@@ -95,7 +95,7 @@ const About = () => {
                     <div className="kitties" style={{margin: 'auto'}}>
                         <div style={{ margin: 'auto'}}>
                             <img src="./assets/cleo-and-lurch.jpg" alt="Cleo and Lurch" className="kitty-image"/>
-                            <p className='kitty-description'>Cleo and foster kitty Lurch</p>
+                            <p className='kitty-description'>Cleo (Tabby) and foster kitty Lurch (Tuxedo)</p>
                         </div>
                         <div style={{ margin: 'auto'}}>
                             <img src="./assets/lulu.jpg" alt=" Cleo and Lulu" className="kitty-image"/>

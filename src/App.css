@@ -52,10 +52,8 @@ body {
 }
 
 .navigation {
-    /* margin: 5vh; */
     height: 90vh;
-    border-radius: 25px;
-    /* border: 2px solid black; */
+    /* border-radius: 25px; */
     width: 25%;
     position: fixed;
 }
@@ -92,7 +90,7 @@ nav {
     text-align: center;
 }
 
-a {
+.navigation a {
     color: black;
     margin: 20px;
     padding-left: 10%;
@@ -108,7 +106,7 @@ a {
     margin-left: 25%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: cener;
     overflow: visible;
     padding-top: 5vh;
     /* margin: 0 auto; */
@@ -119,8 +117,9 @@ a {
     width: 330px;
     display: flex;
     flex-direction: column;
-    margin-right: 1%;
-    margin-left: 1%;
+    gap: 1%;
+    /* margin-right: 1%;
+    margin-left: 1%; */
     padding-left: 0;
 }
 
@@ -181,64 +180,35 @@ a:link {
     text-decoration: none !important;
 }
 
-.footer-container {
-    background-color: rgb(167, 207, 173);
-    width: 100vw;
-}
-
-.footer-text {
-    padding: 20px;
-    padding-bottom: 0px;
-    margin: 0%;
-    text-align: center;
-}
-
-
-.footer-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 50%;
-    margin: auto;
-    padding: 0%;
-}
-
-.footer-nav a {
-    padding: 0%;
-    font-size: 15px;
-}
-
 hr {
-    border: rgb(85, 130, 91) 2px solid;
-}
-
-.footer-container hr {
-    border: 1px solid rgb(85, 130, 91);
-}
-
-.contacts {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    padding-left: 10%;
-}
-
-.contact {
-    padding-left: 20px;
-    
+    border: 1px solid rgb(124, 19, 19);
 }
 
 iframe {
-        height: 777px;
-        margin-bottom: 2%;
-    }
-@media screen and (max-width: 1629px) {
+    height: 777px;
+    margin-bottom: 2%;
+}
+
+.currently-on {
+    color: brown !important;
+    font-weight:900;
+}
+
+@media screen and (max-width: 1418px) {
     .project-cover {
+        /* 1629px */
+        width: 32.66%;
+    }
+}
+
+@media screen and (max-width: 933px) {
+    .project-cover {
+        /* 1629px */
         width: 45%;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 777px) {
     .content {
         margin: auto;
     }

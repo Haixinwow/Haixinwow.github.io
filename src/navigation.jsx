@@ -1,15 +1,18 @@
-import { Link } from "react-router-dom";
-
+import { Link, useLocation } from "react-router-dom";
+import './App.css'
 
 const NavList = [
-    { navID: 0, navType: "ABOUT", url: "/"},
-    { navID: 1, navType: "ALL WORKS", url: "/all-works"},
-    { navID: 2, navType: "UI/UX", url: "/uiux"},
+    { navID: 0, navType: "ABOUT", url: "/" },
+    { navID: 1, navType: "ALL WORKS", url: "/all-works" },
+    { navID: 2, navType: "RESEARCH", url: "/research" },
+    { navID: 3, navType: "UI/UX", url: "/uiux" },
     // { navID: 3, navType: "GITHUB", url: "/github"},
-    { navID: 4, navType: "ARCHITECTURE", url: "/architecture"},
-    { navID: 6, navType: "RESUME", url: "/resume"}]
+    { navID: 4, navType: "ARCHITECTURE", url: "/architecture" },
+    { navID: 6, navType: "RESUME", url: "/resume" }]
 
 const Navigation = () => {
+    const location = useLocation();
+
     return (
         <div className='navigation'>
             <div className="helloMessage">
@@ -18,11 +21,18 @@ const Navigation = () => {
             </div>
             <nav>
                 {NavList.map((item) => (
-                    <Link key={item.navID} to={item.url} className="nav-link">{item.navType}</Link>
+                    <Link key={item.navID} to={item.url} className={`nav-link ${location.pathname === item.url ? "currently-on" : ""}`} >
+                        {item.navType}
+                    </Link>
                 ))}
                 <div className="contacts">
-                    <i className="fa-brands fa-linkedin contact" ></i>
-                    <i class="fa-solid fa-envelope contact"></i>
+                    <a href="https://www.linkedin.com/in/haixin-zhou-643349177/">
+                        <i className="fa-brands fa-linkedin contact" ></i>
+                    </a>
+                    <a href="mailto:haixin.zhou2001@gmail.com">
+                        <i className="fa-solid fa-envelope contact"></i>
+                    </a>
+
                 </div>
             </nav>
         </div>
