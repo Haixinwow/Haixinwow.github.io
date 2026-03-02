@@ -16,11 +16,15 @@ button,
     cursor: url('cursor_hand.png'), pointer;
 }
 
-input,
-textarea,
-[contenteditable="true"],
 p,
-span {
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
     cursor: url('cursor_ibeam.png'), text;
 }
 
