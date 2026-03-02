@@ -25,7 +25,7 @@ const Navigation = () => {
                         {item.navType}
                     </Link>
                 ))}
-                <div className="contacts">
+                <div className="nav-contacts">
                     <a href="https://www.linkedin.com/in/haixin-zhou-643349177/">
                         <i className="fa-brands fa-linkedin contact" ></i>
                     </a>

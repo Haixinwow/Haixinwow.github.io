@@ -7,24 +7,23 @@
     margin: auto;
     display: flex;
     flex-direction: row;
-    padding-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    width: 20%;
 }
 
 .contacts a {
     text-decoration: none !important;
     color: white;
-}
-
-.contact {
-    padding-left: 20px;
-    
+    margin: auto !important;
 }
 
 .footer-container {
     /* background-color: rgb(167, 207, 173); */
     background-color: brown;
     color: white;
-    width: 100vw;
+    width: 100%;
 }
 
 .footer-text {
@@ -41,6 +40,7 @@
     justify-content:space-between;
     width: 50%;
     margin: auto;
+    margin-top: 2%;
     padding: 0%;
 }
 
@@ -51,7 +51,14 @@
 }
 
 .copyright {
-    /* color: rgb(102, 122, 98); */
     color: rgb(193, 132, 132);
     padding: 5px;
+    /* width: 100%; */
+    text-align: center;
+}
+
+@media screen and (max-width: 777px) {
+    .footer-nav {
+        width: 100%;
+    }
 }

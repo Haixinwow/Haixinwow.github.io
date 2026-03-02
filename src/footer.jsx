@@ -9,13 +9,13 @@ const Footer = () => {
             <h4 className="footer-text"> Frontend Engineer</h4>
             <nav className="footer-nav">
                 <Link to="/" className="page-title">ABOUT</Link>
-
+                |
                 <Link to="/all-works" className="page-title">ALL WORKS</Link>
-
+                |
                 <Link to="/uiux" className="page-title">UI/UX</Link>
-
+                |
                 <Link to="/architecture" className="page-title">ARCHITECTURE</Link>
-
+                |
                 <Link to="/resume" className="page-title">RESUME</Link>
 
             </nav>

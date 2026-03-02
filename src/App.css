@@ -1,3 +1,8 @@
+/* * {
+    margin: 0%;
+    width: 100%;
+} */
+
 body {
     margin: 0%;
     background-color: rgb(255, 251, 246);
@@ -49,6 +54,10 @@ body {
     font-style: normal;
     font-weight: bold;
     line-height: 13px;
+}
+
+.nav-link .contact {
+    color: #2e2e2e !important;
 }
 
 .navigation {
@@ -171,6 +180,24 @@ nav {
     width: 90%;
 }
 
+.nav-contacts {
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    margin: 20px;
+    padding-left: 10%;
+    width: 50%;
+}
+
+.nav-contacts a {
+    text-decoration: none !important;
+    color: black;
+    padding: 0%;
+    margin: 0% !important;
+    margin-right: 20px !important;
+
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -191,7 +218,7 @@ iframe {
 
 .currently-on {
     color: brown !important;
-    font-weight:900;
+    font-weight: 900;
 }
 
 @media screen and (max-width: 1418px) {
@@ -209,6 +236,10 @@ iframe {
 }
 
 @media screen and (max-width: 777px) {
+    .page {
+        margin: 0%;
+    }
+
     .content {
         margin: auto;
     }
