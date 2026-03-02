@@ -10,6 +10,7 @@ import Architecture from './pages/architecture';
 import Resume from './pages/resume';
 import ProjectDetail from './pages/project_detail';
 import HamburgerNav from './pages/hamburgerNav';
+import ScrollTop from './scroll_top';
 import Footer from './footer';
 import * as React from 'react'
 
@@ -49,6 +50,7 @@ const App = ({ menuOpen, setMenuOpen }) => {
           </Routes>
         </div>
 
+        <ScrollTop />
         <Footer />
         
       </div>
