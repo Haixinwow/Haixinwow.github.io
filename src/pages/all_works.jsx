@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import projects from "../data/projects.json"
 import '../App.css'
+import ScrollTop from "../scroll_top";
 const workList = projects
 
 const AllWorks = () => {
 
 
     return (
-        <div className="content">
+        <div className="content" id='top'>
             {workList.map((work) => {
                 if (work.id === 'architecture') {
                     return (
@@ -48,6 +49,7 @@ const AllWorks = () => {
 
                 }
             })}
+            <ScrollTop />
         </div>
     );
 }

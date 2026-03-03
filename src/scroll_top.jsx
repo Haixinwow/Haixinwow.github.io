@@ -1,11 +1,9 @@
 const ScrollTop = () => {
-    const topFunction = () => {
+    const handleClick = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
-    return (
-        <button onclick={topFunction} id="myBtn" title="Go to top">Top</button>
-    )
-}
+    return <button onClick={handleClick} className="back-to-top">Top <i class="fa-solid fa-arrow-turn-up"></i></button>;
+};
 
-export default ScrollTop
+export default ScrollTop;

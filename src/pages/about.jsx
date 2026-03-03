@@ -1,9 +1,10 @@
 import '../App.css'
 import './about.css'
+import ScrollTop from '../scroll_top';
 
 const About = () => {
     return (
-        <div className="content">
+        <div className="content" id='top'>
             <div style={{ margin: 'auto', fontSize: '20px' }}><h1>ABOUT</h1></div>
             <div className="about-container">
 
@@ -104,7 +105,7 @@ const About = () => {
                         
                     </div>
                 </section>
-
+                <ScrollTop />
             </div>
         </div>
     );

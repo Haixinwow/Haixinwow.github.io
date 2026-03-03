@@ -238,6 +238,15 @@ iframe {
     font-weight: 900;
 }
 
+.back-to-top {
+    border: none;
+    background-color: transparent;
+    margin: auto;
+    font-size: larger;
+    padding-bottom: 10px;
+    color: gray;
+}
+
 @media screen and (max-width: 1418px) {
     .project-cover {
         /* 1629px */

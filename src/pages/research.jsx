@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import projects from "../data/projects.json"
+// import ScrollTop from "../scroll_top";
 import '../App.css'
 const workList = projects
 
 const Research = () => {
     return (
-        <div className="content">
+        <div className="content" id='top'>
             {workList.map((work) => {
                 if (work.tag === "research") {
                     return (
@@ -27,6 +28,7 @@ const Research = () => {
                     )
                 }
             })}
+            {/* <ScrollTop /> */}
         </div>
     );
 }
