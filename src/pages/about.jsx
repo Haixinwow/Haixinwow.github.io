@@ -105,8 +105,8 @@ const About = () => {
                         
                     </div>
                 </section>
-                <ScrollTop />
             </div>
+            <ScrollTop />
         </div>
     );
 }

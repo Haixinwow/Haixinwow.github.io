@@ -134,6 +134,7 @@ nav {
     flex-wrap: wrap;
     justify-content: cener;
     overflow: visible;
+    min-height: 66vh;
     padding-top: 5vh;
     /* margin: 0 auto; */
     gap: 1%;
@@ -245,6 +246,7 @@ iframe {
     font-size: larger;
     padding-bottom: 10px;
     color: gray;
+    width: 100%;
 }
 
 @media screen and (max-width: 1418px) {
